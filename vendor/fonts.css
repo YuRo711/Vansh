@@ -1,0 +1,10 @@
+@font-face {
+  font-family: "Franchise";
+  src: url("./fonts/Franchise.ttf");
+}
+
+@font-face {
+  font-family: "Inria Sans";
+  src: url("./fonts/InriaSans-Regular.ttf");
+  font-weight: 400;
+}
