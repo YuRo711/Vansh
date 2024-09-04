@@ -48,3 +48,32 @@
 
 .hero__image {
 }
+
+.hero__button {
+  border: solid #000 5px;
+  border-radius: 5px;
+  background-color: #AA14F0;
+  color: #FFF;
+  text-transform: uppercase;
+  font-size: 48px;
+  font-weight: 600;
+  height: 118px;
+  width: 314px;
+  position: absolute;
+  top: 0;
+  left: 100px;
+  rotate: -6deg;
+  z-index: 1;
+}
+
+.hero__button-shadow {
+  height: 118px;
+  width: 314px;
+  border: solid #000 5px;
+  border-radius: 5px;
+  background-color: #E73F0A;
+  position: absolute;
+  top: 5px;
+  left: 105px;
+  rotate: -6deg;
+}

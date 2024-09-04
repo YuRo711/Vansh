@@ -8,3 +8,15 @@
   src: url("./fonts/InriaSans-Regular.ttf");
   font-weight: 400;
 }
+
+@font-face {
+  font-family: "Inria Sans";
+  src: url("./fonts/InriaSans-Bold.ttf");
+  font-weight: 600;
+}
+
+@font-face {
+  font-family: "Inria Sans";
+  src: url("./fonts/InriaSans-Italic.ttf");
+  font-style: italic;
+}
