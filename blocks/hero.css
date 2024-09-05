@@ -20,6 +20,7 @@
   position: absolute;
   z-index: -1;
   bottom: 0;
+  width: 100%;
 }
 
 .hero__main {
@@ -76,4 +77,72 @@
   top: 5px;
   left: 105px;
   rotate: -6deg;
+}
+
+.hero__sneaker {
+  position: absolute;
+  z-index: 1;
+  top: 120px;
+}
+
+.hero__sneaker:nth-of-type(1) {
+  left: 0;
+}
+
+.hero__sneaker:nth-of-type(2) {
+  right: 0;
+}
+
+.hero__seal {
+  position: absolute;
+  z-index: 1;
+  bottom: 280px;
+  right: 100px;
+}
+
+.hero__text {
+  position: absolute;
+  z-index: 1;
+  color: #fff;
+  max-width: 264px;
+  bottom: 180px;
+  left: 100px;
+  font-size: 24px;
+  font-weight: 600;
+}
+
+.hero__thanks {
+  font-size: 21px;
+  font-style: italic;
+  position: absolute;
+  z-index: 1;
+  color: #fff;
+  max-width: 200px;
+  bottom: 150px;
+  right: 80px;
+}
+
+.hero__star {
+  z-index: 1;
+  position: absolute;
+}
+
+.hero__star:nth-of-type(1) {
+  top: 220px;
+  left: 250px;
+}
+
+.hero__star:nth-of-type(2) {
+  top: 200px;
+  right: 220px;
+}
+
+.hero__star:nth-of-type(3) {
+  bottom: 150px;
+  left: 30px;
+}
+
+.hero__star:nth-of-type(4) {
+  top: -70px;
+  left: 650px;
 }
