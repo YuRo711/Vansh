@@ -1,0 +1,56 @@
+.trending {
+  display: flex;
+  position: relative;
+  gap: 65px;
+}
+
+.trending__shoe {
+  position: absolute;
+  top: -50px;
+  left: 70px;
+}
+
+.trending__info {
+  margin-top: 100px;
+  position: relative;
+}
+
+.trending__title {
+  max-width: 620px;
+  font-size: 96px;
+}
+
+.trending__text {
+  max-width: 610px;
+  font-size: 21px;
+}
+
+.trending__button {
+  border: solid #000 5px;
+  border-radius: 5px;
+  background-color: #AA14F0;
+  color: #FFF;
+  text-transform: uppercase;
+  font-size: 29px;
+  font-weight: 600;
+  height: 77px;
+  width: 197px;
+  z-index: 1;
+  text-decoration: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  margin-top: 30px;
+}
+
+.trending__button-shadow {
+  height: 77px;
+  width: 197px;
+  border: solid #000 5px;
+  border-radius: 5px;
+  background-color: #E73F0A;
+  position: absolute;
+  top: 356px;
+  left: 12px;
+}

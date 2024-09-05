@@ -147,3 +147,10 @@
   top: -70px;
   left: 650px;
 }
+
+.hero__boom {
+  z-index: 1;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
