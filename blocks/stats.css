@@ -1,0 +1,35 @@
+.stats {
+  padding: 100px 85px;
+  z-index: 1;
+}
+
+.stats__box {
+  width: 100%;
+  box-sizing: border-box;
+  background-color: #FABD2D;
+  border: solid 6px #000;
+  border-radius: 35px;
+  padding: 52px 80px;
+  box-shadow: 10px 10px #000;
+  display: flex;
+  justify-content: space-between;
+}
+
+.stats__stat {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-transform: uppercase;
+  font-size: 38px;
+  font-weight: 600;
+  border-right: solid 2px #000;
+  flex-grow: 1;
+}
+
+.stats__stat:nth-last-child(1) {
+  border: none;
+}
+
+.stats__number {
+  font-size: 121px;
+}
