@@ -51,8 +51,8 @@
   border: solid #000 5px;
   border-radius: 5px;
   background-color: #E73F0A;
-  position: absolute;
-  top: 356px;
+  position: relative;
+  top: -70px;
   left: 12px;
 }
 
@@ -88,6 +88,7 @@
   position: absolute;
   right: 0;
   top: 600px;
+  z-index: -1;
 }
 
 .trending__vector {

@@ -1,0 +1,64 @@
+.shoes {
+  padding: 100px 80px 0;
+  width: 100%;
+  box-sizing: border-box;
+  position: relative;
+}
+
+.shoes__title {
+  font-size: 123px;
+  max-width: 550px;
+  line-height: 0.9;
+}
+
+.shoes__collection {
+  margin-top: 100px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+.shoes__card:nth-child(2) {
+  margin-top: 140px;
+}
+
+.shoes__card:nth-child(3) {
+  margin-top: 280px;
+}
+
+.shoes__image {
+  max-width: 100%;
+}
+
+.shoes__name {
+  margin: 14px 0 0;
+  font-size: 28px;
+  font-weight: 600;
+  max-width: 400px;
+}
+
+.shoes__button {
+  margin-top: 14px;
+  color: #FFF;
+  font-size: 20px;
+  letter-spacing: 2%;
+  font-weight: 600;
+  border: solid 2px #000;
+  border-radius: 5px;
+  box-shadow: 5px 5px #000;
+  width: 134px;
+  height: 50px;
+  background-color: #AA14F0;
+}
+
+.shoes__star {
+  position: absolute;
+  top: 550px;
+  right: 300px;
+}
+
+.shoes__boom {
+  position: absolute;
+  bottom: 80px;
+}
