@@ -1,0 +1,52 @@
+.footer {
+  padding: 70px 77px;
+  background-color: #FE2E44;
+  z-index: 2;
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer__main {
+  display: flex;
+  flex-direction: column;
+  gap: 26px;
+}
+
+.footer__motto {
+  font-size: 26px;
+  max-width: 200px;
+  margin: 0;
+}
+
+.footer__socials {
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer__social-link {
+  cursor: pointer;
+}
+
+.footer__links {
+  display: flex;
+  gap: 126px;
+}
+
+.footer__title {
+  font-size: 46px;
+}
+
+.footer__list {
+  padding: 0;
+  list-style: none;
+  margin-top: 8px;
+  display: flex;
+  flex-direction: column;
+  gap: 10.8px;
+}
+
+.footer__link {
+  color: #000;
+  text-decoration: none;
+  font-size: 21.62px;
+}

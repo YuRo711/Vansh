@@ -7,6 +7,7 @@
 @import url('../blocks/trending.css');
 @import url('../blocks/shoes.css');
 @import url('../blocks/popular.css');
+@import url('../blocks/footer.css');
 
 html {
     scroll-behavior: smooth;
