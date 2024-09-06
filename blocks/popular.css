@@ -1,0 +1,86 @@
+.popular {
+  padding: 150px 80px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  z-index: 2;
+  position: relative;
+}
+
+.popular__title {
+  font-size: 112px;
+}
+
+.popular__subtitle {
+  font-size: 29px;
+  margin: 40px 0 0;
+}
+
+.popular__categories {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  margin-top: 105px;
+  z-index: 1;
+}
+
+.popular__category {
+  padding: 40px 0;
+  font-size: 68px;
+  font-family: 'Franchise', Georgia, serif;
+  text-decoration: none;
+  color: #000;
+  border-bottom: solid 1px rgb(0, 0, 0, 0.26);
+  display: flex;
+  align-items: center;
+}
+
+.popular__category:hover {
+  color: #E82E43;
+}
+
+.popular__arrow {
+  display: none;
+  margin-left: 10px;
+}
+
+.popular__category:hover .popular__arrow {
+  display: block;
+}
+
+.popular__images {
+  position: absolute;
+  top: 500px;
+}
+
+.popular__image {
+  position: absolute;
+}
+
+.popular__image:nth-child(1) {
+  z-index: 3;
+}
+
+.popular__image:nth-child(2) {
+  z-index: 2;
+  left: 150px;
+  top: 20px;
+}
+
+.popular__image:nth-child(3) {
+  z-index: 1;
+  left: 300px;
+  top: 40px;
+}
+
+.popular__star {
+  position: absolute;
+  left: 13px;
+  top: 780px;
+}
+
+.popular__boom {
+  position: absolute;
+  right: -24px;
+  top: 800px;
+}

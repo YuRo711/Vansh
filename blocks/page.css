@@ -6,6 +6,7 @@
     overflow: hidden;
     font-family: 'Inria Sans', Calibri, 'Trebuchet MS', sans-serif;
     position: relative;
+    background-color: #F5F5F5;
 }
 
 .page__background {
@@ -14,7 +15,7 @@
     height: 100%;
     z-index: 1;
     background-image: url('../images/paper.png');
-    background-repeat: repeat-y;
+    background-size: cover;
 }
 
 h1, h2, h3 {
